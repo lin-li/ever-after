@@ -1,121 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="author" content="">
+	<link rel="shortcut icon" href="img/favicon.ico">
 
-    <title>Hi I'm Qinqin</title>
 
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen" />	
-	<link href="css/animate.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
+    <title>Ever After</title>
 
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
-	<div id="preloader">
-	  <div id="load"></div>
-	</div>
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 	
-    <!-- Navigation -->
-    <div id="navigation">
-        <nav class="navbar navbar-custom" role="navigation">
-                              <div class="container">
-                                    <div class="row">
-                                          <div class="col-md-12">
-                         
-                                          <!-- Brand and toggle get grouped for better mobile display -->
-                                          <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                                                <i class="fa fa-bars"></i>
-                                                </button>
-                                          </div>
-                                                      <!-- Collect the nav links, forms, and other content for toggling -->
-                                                      <div class="collapse navbar-collapse" id="menu">
-                                                            <ul class="nav navbar-nav">
-                                                                  <li><a href="#about">About Me</a></li>
-                                                            </ul>
-                                                      </div>
-                                                      <!-- /.Navbar-collapse -->
-                             
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- /.container -->
-                        </nav>
-    </div> 
-    <!-- /Navigation -->  
+	<link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/supersized.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/component.css" />
 
-	<!-- Section: about -->
-    <section id="about" class="home-section">
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Niconne&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.min.js"></script>
+
+    <!-- HTML5 shim IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Ever After</a></h1>
+			<!-- <i class=" fa fa-close menu-close close">&times;</i> -->
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#story" class="smoothScroll">Our Love Story</a>
+			<a href="#gallery" class="smoothScroll">Gallery</a>
+			<a href="#events" class="smoothScroll">Events</a>
+			<a href="#rsvp" class="smoothScroll">RSVP</a>	
+			<a href="#gifts" class="smoothScroll">Gifts</a>
+
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+			
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-heart"></i></div>
+	</nav>
+
+
+	
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home"></section>
+	<div id="headerwrap" class="hero">
+		<div class="container">
+			<br>
+			<h1 class="amp">Qinqin <span class="amp">&</span> Lin</h1>
+			<h2 class="amp">have been together for one year!</h2>
+		
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- .container -->
+	  <div id="overlay"></div>
+	  <!--Background Slider Navigation-->			
+			<ul id="slide-list"></ul>
+			<!-- Background Slider Holder -->
+			<ul id="supersized"></ul>
+	</div><!-- #headerwrap -->
+
+	
+	
+
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<div class="white">
+		<div class="container">
+			<div class="row">
+				<h2>Our love has been</h2>
+				<span class="hearts"></span>
+				
+			</div>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<ul id="countdown_dashboard">
+						<li class="dash years_dash">
+							<span class="dash_title">years</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li>
+
+<!-- 						<li class="dash weeks_dash">
+							<span class="dash_title">weeks</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li> -->
+
+						<li class="dash days_dash">
+							<span class="dash_title">days</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li>
+
+						<li class="dash hours_dash">
+							<span class="dash_title">hours</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li>
+
+						<li class="dash minutes_dash">
+							<span class="dash_title">minutes</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li>
+
+						<li class="dash seconds_dash">
+							<span class="dash_title">seconds</span>
+							<div class="digit">0</div>
+							<div class="digit">0</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .white -->
+	
+	
+	<!-- ========== Stories - GREY SECTION ========== -->
+	<section id="story"></section>
+	<div class="grey">
+		<div class="container">
+			<div class="row">
+			
+				<ul class="ch-grid row">
+					<li>
+						<div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>Lin Li</h3>
+								
+								<p>THE PRINCE</p>
+							</div>
+						</div>
+					</li>
+					<li id="mid">
+						<div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Live Happily Together</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>Qinqin Zhao</h3>
+								<p>THE PRINCESS</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+
+			</div>
+		</div><!-- .container -->
+	</div><!-- .grey -->
+	
+	<!-- ========== WHITE SECTION ========== -->
+	<div class="white">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
+				<h2>Our Love story</h2>
+				<span class="hearts"></span>
+				
+            
+            <div class="row postDetails">
+            	<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                	<div class="postYear">Sep, 2013 </div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                	<div class="arrowpart"></div>
+                    <div class="exCon">
+						<h3>First Met</h3>
+                        <p><span class="dropcap">H</span>ow can I forget the time when I first met you? I still remember that night at Peking University. I went there for a lecture about violin collection. You were wearing a long skirt, elegant and neat. </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row postDetails">
+            	<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                	<div class="postYear">Feb, 2011</div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                	<div class="arrowpart"></div>
+                    <div class="exCon">
+                    	<h3>Second Date</h3>
+                        <p><span class="dropcap">O</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row postDetails">
+            	<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                	<div class="postYear">Mar, 2012</div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                	<div class="arrowpart"></div>
+                    <div class="exCon">
+                    	<h3>He played a music for me</h3>
+                        <p><span class="dropcap">W</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="row postDetails">
+            	<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                	<div class="postYear">April, 2012</div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                	<div class="arrowpart"></div>
+                    <div class="exCon">
+                    	<h3>The Proposal</h3>
+						<p><span class="dropcap">S</span>am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+				 </div>
+			</div>
+		</div><!-- container -->
+	</div><!-- .white -->
+	
+	<section id="gallery"></section>
+	<!-- ========== Gallery - DARK GREY SECTION ========== -->
+	<div class="darkgrey">
+		<section id="photostack" class="photostack photostack-start">
+				<div>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img01"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Serenity Beach</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img02"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Happy Days</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img03"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Beautywood</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img04"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Heaven of time</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img05"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Speed Racer</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="placeholders/600x500.gif" class="photostack-img"><img src="placeholders/240x240.gif" alt="img06"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Forever this</h2>
+						</figcaption>
+					</figure>
 					
-						<div class="section-heading text-center">
-						<div class="wow bounceInDown" data-wow-delay="0.2s">
-							<h2 id="name">My name is Qinqin Zhao</h2>
-						</div>
-						</div>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img07"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Lovely Green</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img08"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Wonderful</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img09"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Love Addict</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img10"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Friendship</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img11"/></a>
+						<figcaption>
+							<h2 class="photostack-title">White Nights</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="#" class="photostack-img"><img src="placeholders/240x240.gif" alt="img12"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Serendipity</h2>
+						</figcaption>
+					</figure>
+				</div>
+			</section>
+	
+	</div>
+	
+	<section id="events"></section>
+	<div class="white noPadding">
+		<div class="pattern">
+			<div class="container">
+			
+			<div class="row">
+				<h2>Events</h2>
+				<span class="hearts"></span>
+				
+					<div class="col-md-6 event">
+						<h3>Main Ceremony</h3>
+							<div class="grid">
+								<a href="#">
+								<figure>
+									<img src="placeholders/550x350.gif" />
+									<figcaption>
+										<button>View</button>
+									</figcaption>
+								</figure>
+								</a>
+							</div>
+						<div class="event-meta"><span><i class="fa fa-calendar-o"></i> May 5, 2014</span> <span><i class="fa fa-clock-o"></i> 3:00pm - 4:00pm</span>
+
+						<span> <i class="fa fa-building-o"></i> San Sebastian Parish Church</span></div>
+						<p class="justify"><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<a href="#" class="link">View in Google Maps</a>
+						<br>
+					
+					</div>
+					<div class="col-md-6  event">
+						<h3>After Party</h3>
+						<div class="grid">
+								<a href="#">
+								<figure>
+									<img src="placeholders/550x350.gif" />
+									<figcaption>
+										<button>View</button>
+									</figcaption>
+								</figure>
+								</a>
+							</div>
+						<div class="event-meta"><span><i class="fa fa-calendar-o"></i> May 5, 2014</span> <span><i class="fa fa-clock-o"></i> 3:00pm - 4:00pm</span>
+
+						<span> <i class="fa fa-building-o"></i> Carribean Resort, Goldenfield</span></div>
+						<p class="justify"><span class="dropcap">S</span>ome ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<a href="#" class="link">View in Google Maps</a>
+						<br>
+					
+					</div>
 					
 				</div>
 			</div>
 		</div>
-
+	</div>
+	
+	
+	<section id="rsvp"></section>
+	<div id="rsvpwrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<img src="x.jpg" class="img-responsive img-rounded" alt="" />
-				</div>		
-				<div class="col-md-6">
-					<p></p>
-					<p>
-						I am a high school English teacher in China. I got my Bachelor's degree in Peking University, where I studied Journalism. 
-					</p>
-					<blockquote>
-						I am applying for a Master program in Education at USA this year. I hope to find solutions to the education problem in China. 
-					</blockquote>
-				</div>
-			</div>		
-		</div>
-	</section>
-	<!-- /Section: about -->
+				<h2 class="amp">Don't Forget to RSVP</h2>
+				<span class="hearts"></span>
+					<form name="contact" method="post" action="index.html" class="af-form" id="af-form">
+						<div class="col-lg-4 col-lg-offset-4">
+					
+						
+						<div class="form-group">
+							<input type="text" name="name" id="name" size="30" value="" placeholder="Name" class="text-input form-control" />
+							<label class="error" for="name" id="name_error">Name is required.</label>
+						</div>
+						
+						<div class="form-group">
+							<input type="radio" value="Will be there" id="response_accepted" name="response">
+							Will be there
+							<input type="radio" value="Won't make it" id="response_declined" name="response">
+							Won't make it
+							<label id="response_error" for="response" class="error">Please select an option</label>
+						</div>						
+                         
+						<div class="form-group">
+							<input type="text" name="email" id="email" size="30" value="" placeholder="Email" class="text-input form-control" />
+							<label class="error" for="email" id="email_error">Email is required.</label>
+						</div>
+						
+						   
+						<div class="form-group">
+								<input type="text" name="guests" id="guests" size="30" value="" placeholder="No. of guests attending" class="text-input form-control" />
+								<label class="error" for="guests" id="guests_error">No. of guests is required.</label>
+						</div>
+                           
 
-	<footer>
+                        
+
+                           <div class="form-group">
+                                    <textarea name="message" id="input-message" cols="30" placeholder="Message" class="text-input form-control"></textarea>
+                                    <label class="error" for="input-message" id="message_error">Message is required.</label>
+							</div>
+                          
+
+                      
+
+                            <div class="form-group af-outer af-required">
+                                    <input type="submit" name="submit" class="form-button btn btn-primary form-control" id="submit_btn" value="Submit" />
+                            </div>
+
+                        </div>
+                    </form>
+						
+			</div>	
+		</div><!-- container -->
+	</div><!-- /portfoliowrap -->
+	
+	<!-- ========== Gifts - GREY SECTION ========== -->
+	<section id="gifts"></section>
+	
+	<div class="white">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<p>&copy; 2014 Qinqin Zhao </p>
+				<div class="col-lg-6 col-lg-offset-3">
+					
+						<h2>Gift Registry</h2>
+						<span class="hearts"></span>
+						
+						<p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<ul class="list-inline">
+						<li><a href="#"><img src="placeholders/160x30.gif" alt="test" /></a></li>
+						<li><a href="#"><img src="placeholders/160x30.gif" alt="test" /></a></li>
+						<li><a href="#"><img src="placeholders/160x30.gif" alt="test" /></a></li>
+						</ul>
 				</div>
 			</div>	
 		</div>
-	</footer>
+	</div>	
+	
+	
+	<!-- ========== Grey SECTION ========== -->
+	<div class="grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h2>You know you're in love when you can't fall asleep because reality is finally better than your dreams.
+				</h2>
+				<span>Dr. Seuss</span>
+				
+				</div>
+			</div>
+		</div><!-- container -->
+	</div><!-- .grey -->
+	
+	<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div id="copy">
+						<span>Crafted with love by <a href="http://www.renren.com/345066061/profile">Lin Li</a></span>
+					</div>	
+				</div>	
+			</div>	
+	</div>
 
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
+    <!-- Javascripts
+    ================================================== -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.lwtCountdown-1.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>	
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/nivo-lightbox.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/jquery.smooth-scroll.js"></script> 
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/supersized.3.2.7.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/ajax-mail.js"></script>
+	<script src="js/photostack.js"></script>	
 
-    <noscript>
+	<script src="js/main.js"></script>
+
 </body>
-
 </html>

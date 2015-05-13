@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Ever After - Responsive Wedding Invite Template &rdquo; Documentation by &ldquo;Falconerie Badayos II&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Ever After - Responsive Wedding Invite Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2/04/2014<br>
+					By: Falconerie Badayos II<br>
+					Email: <a href="mailto:falconerie.04@gmail.com.com">falconerie.04@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/falz04">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#faq">FAQs</a></li>
+			<li><a href="#structure">Files and Structure</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			
+		</ol>
+		
+		<hr>
+		
+		<h3 id="faq"><strong>A) FAQs</strong> - <a href="#toc">top</a></h3>
+		
+		
+		<strong>How to Change the logo?</strong>
+		<p>To change the logo, you need to find(CTRL+F) the word "logo" in the index.html file. Replace it with an image or text.</p>	
+		
+		<strong>How to Change the heart icon, social icons?</strong>
+		<p>I am using <a href="http://fontawesome.io/">Font Awesome</a> for the icons, you can copy the classes and replace it with the template.</p>	
+
+		<strong>How to change the background images in the header?</strong>
+		<ul>
+		<li>Go to js folder and edit main.js</li>
+		<li>Find this text "Home Background slider"</li>
+		<li>Underneath it, you will find the images for the slider.</li>
+		<li>You can add more images by copying another line.</li>
+		</ul>
+		
+		
+		
+		<strong>Change the date in the countdown?</strong>
+		<ul>
+		<li>Go to js folder, edit main.js</li>
+		<li>As you open the file, you will see the script for the countdown</li>
+		</li>Save the file</li>
+		</ul>
+		
+		<strong>Change the images in Love story section?</strong>
+		
+		<ul>
+		<li>First, let's edit the index.html</li>
+		<li>Required image size for the bride and groom are 220x220</li>
+		<li>Required image size for the couple are 250x250</li>
+		</ul>
+	
+		<strong>Change the images in Gallery section</strong>
+		
+		<ul>
+		<li>First, let's edit the index.html</li>
+		<li>Find this text in index.html: "photostack"</li>
+		<li>The preferable thumbnail size is 240x240 and it's up to you for the larger preview which shows up in the modalbox.</li>
+		<li>To change the thumbnail - replace the location on what is inside the "img src"</li>
+		<li>To change the large preview, replace on what is inside the "a href"</li>
+		<li>As you can see below there is a figure tag with data-dummy - these are the images that will be displayed on the sides but not on the bullets</li>
+		</ul>
+		
+		<b>How to add your email in the RSVP?</b>
+		<ul>
+		<li>Go to process.php</li>
+		<li>Find first the falconerie.04@gmail.com</li>
+		<li>Replace it with the email of your choice.</li>
+		<li>Save the file.</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="structure"><strong>B) Files and Structure</strong> - <a href="#toc">top</a></h3>
+		<h1>HTML</h1>
+		<p>I am using the latest <a href="http://getbootstrap.com">Bootstrap 3</a> for the theme's HTML structure. </p>
+		<hr>
+		<h1>CSS</h1>
+		<p>Css files are located under the css folder</p>
+		<ul>
+		<li> bootstrap.min.css I'm using two CSS files in this theme. The first one is a Bootstrap file that includes normalize.css . This makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.</li> 
+		
+		<li>main.css contains all of the specific stylings for the template.</li>
+
+		<li>font-awesome.min.css - this is used for the icons that are all used in the site. Check it out in <a href="http://fontawesome.io/"></a></li>
+		<li>magnific-popup.css - used for modalboxes.</li>
+		<li>supersized.css - used for header slider.</li>
+		</ul>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+
+		<hr>
+		
+		<h1>JavaScript</h3>
+		
+		<p>This theme imports 14 Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>Bootstrap.js</li>
+			<li>Modernizr.js</li>
+			<li>HTML5shiv.js</li>
+			
+			<li>ajax-mail.js</li>
+			<li>main.js - custom functions for the template.</li>
+			
+			<li>jquery.lwtCountdown-1.0.js</li>
+			<li>classie.js - for the portfolio</li>
+			<li>SmoothScroll.js</li>
+			<li>supersized.3.2.7.min.js</li>
+			<li>jquery.smooth-scroll.js - menu scroller</li>
+		
+			<li>isotopes.js</li>
+			<li>jquery.hoverdir.js</li>
+			<li>jquery.magnific-popup.min.js</li>
+
+			
+		</ol>
+		  
+
+		<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons, scripts or other files as listed.
+		
+		<ul>
+			<li><a href="http://www.google.com/fonts/">GoogleFont</a></li>
+			<li><a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome</a></li>
+			<li><a href="http://jquery.com/">jQuery Framework</a></li>
+			<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+			<li><a href="https://code.google.com/p/html5shiv/">HTML5 Shiv</a></li>
+			<li><a href="http://tympanus.net/codrops">Codrops (Gallery)</a></li>
+			<li><a href="http://www.unsplash.com">Unsplash - (Demo images)</a></li>
+			<li><a href="http://photodune.net/user/Grekov/portfolio">Grekov</a> - (Demo images)</li>
+			<li>http://www.flickr.com/photos/thomasleuthard/5936476818/sizes/o/ <br/>
+				http://www.flickr.com/photos/angel_ina/3837963118/sizes/o/ <br/>
+				http://www.flickr.com/photos/ally_m/5537743236/sizes/o/ <br/>
+				http://www.flickr.com/photos/tmarsee530/8890283813/sizes/o/
+			</li>
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Falconerie Badayos II</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

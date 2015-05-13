@@ -1,0 +1,21 @@
+This theme was made possible with the help of this scripts/files/plugins.
+
+- GoogleFont - http://www.google.com/fonts/
+- FontAwesome - http://fortawesome.github.io/Font-Awesome/
+- jQuery Framework - http://jquery.com/
+- Bootstrap - http://getbootstrap.com/
+- HTML5 Shiv-  https://code.google.com/p/html5shiv/
+photodune.net/user/Grekov/portfolio
+
+Codrops
+
+
+http://www.flickr.com/search/?s=int&l=comm&mt=all&adv=1&w=all&q=bride&m=text
+http://www.flickr.com/photos/thomasleuthard/5936476818/sizes/o/
+http://www.flickr.com/photos/angel_ina/3837963118/sizes/o/
+http://www.flickr.com/photos/ally_m/5537743236/sizes/o/
+http://www.flickr.com/photos/tmarsee530/8890283813/sizes/o/
+
+
+
+photodune.net/user/Grekov/portfolio
