@@ -79,7 +79,7 @@
 		slides 					:  	[			// Slideshow Images
 										{image : 'placeholders/1400x950.gif'},
 										{image : 'placeholders/header_2.jpg'},  
-										{image : 'placeholders/header_3.jpg'}
+										{image : 'placeholders/1400x950.gif'}
 									]
 		});	
 	
