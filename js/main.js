@@ -9,7 +9,7 @@
 					'day': 		13, // Put the date here
 					'month': 	5, // Month
 					'year': 	2014, // Year
-					'hour': 	6,
+					'hour': 	9,
 					'min': 		0,
 					'sec': 		0
 				} //,omitWeeks: true
