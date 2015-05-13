@@ -77,7 +77,7 @@
 		transition_speed		:	700,		// Speed of transition				
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
-										{image : 'placeholders/header_1.jpg'},
+										{image : 'placeholders/middle_1.jpg'},
 										{image : 'placeholders/header_2.jpg'},  
 										{image : 'placeholders/header_3.jpg'}
 									]
