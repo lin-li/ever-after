@@ -6,10 +6,10 @@
 	
 		jQuery('#countdown_dashboard').countDown({
 				targetDate: {
-					'day': 		11, // Put the date here
+					'day': 		13, // Put the date here
 					'month': 	5, // Month
 					'year': 	2014, // Year
-					'hour': 	0,
+					'hour': 	5,
 					'min': 		0,
 					'sec': 		0
 				} //,omitWeeks: true
