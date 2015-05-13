@@ -78,7 +78,7 @@
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
 										{image : 'placeholders/1400x950.gif'},
-										{image : 'placeholders/header_2.jpg'},  
+										{image : 'placeholders/middle_1.jpg'},  
 										{image : 'placeholders/1400x950.gif'}
 									]
 		});	
